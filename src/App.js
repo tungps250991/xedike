@@ -1,28 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+// import Components
+import Carousel from './Components/Carousel';
+import TripList from './Components/TripList';
+
+// import data
+import trips from './Data/data';
+
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+    render() {
+        console.log(trips);
+        return (
+            <div className="App">
+                <Carousel />
+
+                <TripList trips={trips} />
+            </div>
+        );
+    }
 }
 
 export default App;

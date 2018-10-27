@@ -1,0 +1,11 @@
+html ---> jsx (reactJS)
+
+class  --> className
+for    ---> htmlFor
+alt   --->  alt="logo/slide"
+href="#"   ---> href="/"
+
+inlineCSS  ---> ban chat la 1 object
+
+img
+<img src= > --> <img src= />
