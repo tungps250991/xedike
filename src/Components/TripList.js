@@ -14,7 +14,7 @@ class TripList extends Component {
                 trip={trip}
                 key={index}
                 // getTrip={this.getTrip}
-                getTripApp={this.props.getTripApp.bind(this, trip)}
+                getTripApp={this.props.getTripApp}
             />
         })
         return (
