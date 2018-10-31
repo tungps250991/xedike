@@ -3,12 +3,18 @@ import React, { Component } from 'react';
 import Trip from './Trip';
 
 class TripList extends Component {
+    // getTrip = (trip) => {
+    //     console.log(trip);
+    // }
+
     render() {
         var { trips } = this.props;
         let elmTrip = trips.map((trip, index) => {
             return <Trip 
                 trip={trip}
-                key={index} 
+                key={index}
+                // getTrip={this.getTrip}
+                getTripApp={this.props.getTripApp.bind(this, trip)}
             />
         })
         return (
