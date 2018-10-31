@@ -73,6 +73,8 @@ class Trip extends Component {
                         </div>
                     </div>
                 </div>
+
+                {/*Cach nay rat ton tai nguyen, moi Trip se co 1 Popup*/}
                 {/* <TripPopup 
                     trip={trip}
                 /> */}

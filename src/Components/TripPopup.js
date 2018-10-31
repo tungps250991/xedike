@@ -1,5 +1,3 @@
-// Cach nay rat ton tai nguyen, moi Trip se co 1 Popup
-
 import React from 'react';
 
 const TripPopup = (props) => {
